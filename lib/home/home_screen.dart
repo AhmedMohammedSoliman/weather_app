@@ -133,27 +133,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 }
                 }) ,
-            // FutureBuilder<WeatherFiveDaysLast>(
-            //   future: ApiFunctions.getWeatherFiveDaysLast(),
-            //     builder: (context , asyncSnapShot) {
-            //     if (asyncSnapShot.connectionState == ConnectionState.waiting){
-            //       return Center(child: CircularProgressIndicator(),)
-            //     }else if (asyncSnapShot.hasError){
-            //       return Center(
-            //         child: Column(
-            //           children: [
-            //             Text(asyncSnapShot.data?.message ?? "" ),
-            //             SizedBox(height: 20,),
-            //             ElevatedButton(
-            //                 onPressed: (){
-            //                   ApiFunctions.getCurrentWeather(selectedCity);
-            //                 },
-            //                 child: Text("Try again"))
-            //           ],
-            //         ),
-            //       );
-            //     }
-            //     })
           ],
         )
     ),

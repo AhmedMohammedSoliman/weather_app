@@ -21,21 +21,5 @@ static const String baseURL = "api.openweathermap.org";
       rethrow ;
     }
   }
-  
-  // static Future<WeatherFiveDaysLast> getWeatherFiveDaysLast ()async{
-  //   //https://api.openweathermap.org/data/2.5/forecast?q=alex&appid=708004e0ad676f83ddb16382cb19a110
-  //  var url = Uri.https(baseURL, "/data/2.5/forecast" , {
-  //    "q" : "cairo" ,
-  //    "appid" : "708004e0ad676f83ddb16382cb19a110"
-  //  });
-  //  try {
-  //    var response = await http.get(url);
-  //    var body = response.body ;
-  //    var json = jsonDecode(body) ;
-  //    var weatherFiveDaysLast = WeatherFiveDaysLast.fromJson(json);
-  //    return weatherFiveDaysLast ;
-  //  }catch(e){
-  //    rethrow ;
-  //  }
-  // }
+
 }
